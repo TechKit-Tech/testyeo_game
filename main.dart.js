@@ -97111,7 +97111,7 @@ var $async$JY=A.v(function(b,c){if(b===1)return A.x(c,r)
 while(true)switch(s){case 0:o=q.y
 o===$&&A.a()
 o.tp(0.3)
-p=A.aGv("sounds/")
+p=A.aGv("assets/sounds/")
 o=q.y
 o.b=p
 o.rO(0,new A.AS(a,null))
