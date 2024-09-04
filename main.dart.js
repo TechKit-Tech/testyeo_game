@@ -28783,11 +28783,11 @@ o=A.fW(A.b([q,B.cy,p,B.cy,A.q3(!1,d,A.ly(null,new A.ew(4,A.hC(10),B.bx),null,nul
 A.aFF(!1,new A.a8o(A.a5W(A.b([l,k],n),o,m)),a,t.z)
 return A.y(null,r)}})
 return A.z($async$aGH,r)},
-a8p(a,b){var s=0,r=A.A(t.H),q
-var $async$a8p=A.v(function(c,d){if(c===1)return A.x(d,r)
+a8p(a){var s=0,r=A.A(t.H),q
+var $async$a8p=A.v(function(b,c){if(b===1)return A.x(c,r)
 while(true)switch(s){case 0:q=A.aL3()
 q.tp(0.3)
-q.b=A.aGv("sounds/")
+q.b=A.aGv("assets/sounds/")
 q.rO(0,new A.AS(a,null))
 return A.y(null,r)}})
 return A.z($async$a8p,r)},
@@ -97163,7 +97163,7 @@ if(p<n&&n<r){A.eH("   Bottle 5")
 $.vU=r}}}}}n=o.y
 n===$&&A.a()
 n.cH(0)
-A.a8p("https://firebasestorage.googleapis.com/v0/b/msa-catch-bottle.appspot.com/o/sounds%2Fdrop_sound.wav?alt=media&token=fdc621d6-57b4-4c28-9195-e0def537bacf","audio/wav")
+A.a8p("drop_sound.wav")
 o.ai(new A.axE(o))},
 $S:0}
 A.axE.prototype={
@@ -97253,7 +97253,7 @@ else{o=B.c.ff($.lj)
 if(s<o&&o<r)$.aFQ().sl(0,!0)}}}}p.d.cS(0).a.a.eo(new A.aBh(p))}},
 $S:0}
 A.aBh.prototype={
-$0(){A.a8p("https://firebasestorage.googleapis.com/v0/b/msa-catch-bottle.appspot.com/o/sounds%2Fwin_sound.wav?alt=media&token=0a05c959-9370-4fc3-bc9d-c538f101c0bd","audio/wav")
+$0(){A.a8p("win_sound.wav")
 var s=this.a
 s.a0R(s.e[B.j1.rz(4)])},
 $S:18}
